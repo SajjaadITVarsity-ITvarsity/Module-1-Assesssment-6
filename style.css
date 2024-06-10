@@ -1,0 +1,181 @@
+.gallery img{
+        width: 50%;
+ }
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Specific Styles */
+td:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Additional Colors */
+th, td {
+    color: #333;
+}
+
+.container {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #444;
+}
+
+th {
+    background-color: #444;
+    color: #fff;
+}
+
+td:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #222;
+}
+
+#menu{
+    width:100%;
+    height:40px;
+    background-color: #ddd;
+    padding-top: 12px;
+}
+
+#menu a{
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+#menu a:hover{
+    color: #007bff;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+ .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .gallery a {
+            margin: 10px;
+            display: block;
+            text-decoration: none;
+            border: 2px solid #ccc; /* Border around images */
+            border-radius: 5px; /* Rounded corners */
+        }
+        
+        .gallery img {
+            width: 200px; /* Adjust the width as needed */
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="gallery">
+        <a href="Product-1.html"><img src="images/Ecommerce_01.jpg"/></a>
+        <a href="Product-2.html"><img src="images/Ecommerce_02.jpg"/></a>
+        <a href="Product-3.html"><img src="images/Ecommerce_03.jpg"/></a>
+        <a href="Product-4.html"><img src="images/Ecommerce_04.jpg"/></a>
+        <a href="Product-5.html"><img src="images/Ecommerce_05.jpg"/></a>
+    </div>
+</body>
+</html>
+
+
